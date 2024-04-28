@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 class="title">Sign Up</h1>
+        <div class="underline"></div>
+        <form>
+          <div class="input-group">
+            <div class="input-feild nameFeild">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="name" />
+            </div>
+            <div class="input-feild">
+              <i class="fa-solid fa-at"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-feild">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" placeholder="password" />
+            </div>
+            <p>
+              <span class="text">Password Suggestions</span>
+              <a href="#"> Click Here</a>
+            </p>
+          </div>
+          <div class="btn-feild">
+            <button type="button" class="signUpBtn">Sign up</button>
+            <button type="button" class="disable signInBtn">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
